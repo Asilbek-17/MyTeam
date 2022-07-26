@@ -1,11 +1,28 @@
 /* VARIABLES */
 
-:root{
+:root {
   /* --main-text-color : #fff; */
   /* --main-bg-color : #fff; */
   /* --main-font-size : 16px; */
   /* --main-font-weight : 400; */
   /* --main-line-height : 1.5; */
+}
+
+
+@font-face {
+  font-family: "Livvic";
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/livvic-v13-latin-600.woff2") format("woff2"), 
+  url("../fonts/livvic-v13-latin-600.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Livvic";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/livvic-v13-latin-700.woff2") format("woff2"), 
+  url("../fonts/livvic-v13-latin-700.woff") format("woff"); 
 }
 
 /* GENERAL */
